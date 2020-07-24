@@ -1,1 +1,256 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Yilan Home page</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Yilan Yan</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#footprints">Footprints</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Yilan (Frank)
+                        <span class="text-primary">Yan</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        I am a 
+                        <span class="typed" data-typed-items="Developer, Quick Learner, Travel enthusiast"></span>
+                    </div>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://github.com/little-Salt"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="mailto:frank.yilan.yan@gmail.com"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Development Intern</h3>
+                            <div class="subheading mb-3">Activision, Data Service team</div>
+                            <ul>
+                                <li>Built and deployed a Java-based microservice providing data ETL, using AWS SQS as a work queue, consuming data stored in S3 then performing data-mapping before sending to downstream, it stably ran in production server.</li>
+                                <li>Redesigned and abstracted the above microservice logic into a framework to provide reusability for future use.</li>
+                                <li>Migrated existing projects into GitLab Jenkins CI pipeline, new update in projects triggers auto build and test.</li>
+                                <li>Implemented a Java command-line tool that extracts hash fields from Avro files, then obtaining corresponding unhashed values by querying from Qubole server, finally repopulate the query results to AWS Elasticache.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2018 – April 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Teaching Assistant</h3>
+                            <div class="subheading mb-3">University of British Columbia, CPSC 310 - Introduction to Software Engineering</div>
+                            <ul>
+                                <li>Supervised students building up a full-stack web application project as a scrum master.</li>
+                                <li>Helped students apply RESTful API design principles and advanced Object-Oriented design patterns via projects.</li>
+                                <li>Gave suggestions about the design of data structure, and algorithm, and helped students debug their projects.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2019 – April 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Assistant</h3>
+                            <div class="subheading mb-3">University of British Columbia, Fake news detection team</div>
+                            <ul>
+                                <li>Compiled a list of trusted fake news urls by reading research papers and searching from Kaggle.</li>
+                                <li>Wrote a Python web scraper using Newspaper3k library, to collect news meta-data from the news websites.</li>
+                                <li>Applied ML models such as Kmean, Graph Attention Model on collected data, achieved 72% test accuracy.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May – August 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of British Columbia</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Major in Computer Science</div>
+                            <p>GRADE: 91/100</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2016 - May 2020</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="devicon-java-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-c-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-javascript-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-git-plain"></i></li>
+                    </ul>
+                    <ul class="fa-ul mb-3">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-laptop-code"></i></span>
+                            Languages: Java, C, C++, JavaScript, Typescript, Python, SQL, Bash, HTML, PHP
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-tools"></i></span>
+                            Tools: Git, Maven, Docker, Jenkins, MySQL, AWS(S3, ECS, SQS), Kafka, kibana
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Concepts</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Data structures, Algorithms & Object-oriented Programming
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Unit testing & Program Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Basic: Database, Network, Multithreading & Machine Learning
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">2048 - React</h3>
+                            <div class="subheading mb-3">Keywords: React, Algorithms</div>
+                            <ul>
+                                <li>Built a 2048 game with React framework.</li>
+                                <li>Designed an algorithm to handle next movement and checking game status.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2020 – Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Ftp Client & Server</h3>
+                            <div class="subheading mb-3">Keywords: Java, C, Multithreading, Network programming(TCP, Socket)</div>
+                            <ul>
+                                <li>Implemented an Java FTP client and server in C, support basic commands includes file transfer in passive mode.</li>
+                                <li>Used Java build-in library to create sockets for client-server communication, and added logic to validate user commands and parse server responses including error handling.</li>
+                                <li>Designed the clinet classes structure that is easy for future improvement, such as adding new commands.</li>
+                                <li>Designed and implemented a thread pool based on pthread library for the server to efficiently handle multi-client connections simultaneously.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January – April 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Game Review Websit</h3>
+                            <div class="subheading mb-3">Keywords: Web develpoment(html, php), Relational database(SQL, MySQL)</div>
+                            <ul>
+                                <li>Initialized and designed a website which allows users to get the latest game information, write reviews and commentaries by using HTML, PHP and MAMP.</li>
+                                <li>Designed and orginized the relational database tables with MySQL to store persistent data.</li>
+                                <li>Designed and implemented a simple login and registration system featured by SQL query to check account status and PHP session to check the login status.</li>
+                                <li>Wrote SQL query to retrieve data and to insert/update/delete records to the database, and applied data transformation on the query result.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January – April 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Insight UBC web application</h3>
+                            <div class="subheading mb-3">Keywords: Full-Stack Development, Typescript, Asynchronous programing, DSL, Unit test</div>
+                            <ul>
+                                <li>Implemented a full-stack web query application in Typescript which got full mark in the final evaluation.</li>
+                                <li>Implemented async data import module to load JSON and HTML format data, then perform validation and transform the valid data to the internal data structure.</li>
+                                <li>Implemented query modules that build a query from the frontend user interface, then send POST request to the backend server through the RESTful API.</li>
+                                <li>Added unit tests for all functionalities by using the Mocha test framework, achieved 100\% statement coverage.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January – April 2018</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <!-- Footprints-->
+            <section class="resume-section" id="footprints">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Footprints</h2>
+                    <div class="subheading mb-3">
+                        <p>
+                            I have traveled for many countries and cities, list some of my footprints...
+                            <i class="fas fa-shoe-prints"></i>
+                        </p>
+                    </div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-globe-asia"></i></span>
+                            Asia: China, Japan
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-globe-europe"></i></span>
+                            Europe: United Kingdom, Switzerland, France, Italy, Vatican City, Turkey
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-globe-americas"></i></span>
+                            North America: Canada, United States, Mexico
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
